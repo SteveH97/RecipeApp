@@ -1,0 +1,20 @@
+.filter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.filter input {
+  margin-left: 5rem;
+  height: 2rem;
+}
+.filter form {
+  margin-left: 3rem;
+}
+.filter form div label {
+  margin-left: 1rem;
+}
+.filter form div select {
+  border-style: none;
+}/*# sourceMappingURL=Filter.css.map */

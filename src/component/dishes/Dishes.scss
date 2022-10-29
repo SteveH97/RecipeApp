@@ -1,0 +1,61 @@
+.dishes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: .5rem 0 .5rem 0;
+}
+
+.dishes__cart{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    padding-left: .5rem;
+}
+
+.dishes__cart-recipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4{
+        width: 3rem;
+        height: 50%;
+    }
+
+    div{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h5{
+            width: 10rem;
+            background-color: white;
+        }
+
+        button{
+            border-style: none;
+            background-color: var(--red-color);
+            color: white;
+        }
+    }
+}
+
+.dishes__totalNut{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.dishes__totalNut-info{
+    padding: .15rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--red-color);
+    color: white;
+    align-items: center;
+    border-radius: 5px; 
+}

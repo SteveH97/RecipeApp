@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  background-color: var(--blue-color);
+}
+
+.navbar__search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar__search h1 {
+  margin: 1rem;
+  font-size: 50px;
+}
+.navbar__search input {
+  height: 1.5rem;
+  width: 15rem;
+  border-style: none;
+  border-radius: 5px 0 0 5px;
+  margin-left: 10rem;
+}
+.navbar__search button {
+  height: 1.6rem;
+  border-style: none;
+  border-radius: 0 5px 5px 0;
+}/*# sourceMappingURL=Navbar.css.map */

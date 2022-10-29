@@ -1,0 +1,62 @@
+.fr__off{
+    display: none;
+}
+
+.fr{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 70%;
+    z-index: 5;
+    border: 3px solid black;
+    top: 30%;
+    left: 15%;
+    background-color: white;
+    img{
+        height: 20%;
+        width: 50%;
+    }
+}
+
+
+.fr__info{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        padding: 1rem;
+
+        a{
+            text-decoration: none;
+        }
+    }
+
+    button{
+        margin: 1rem;
+        width: 8rem;
+        border-style: none;
+        background-color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+}
+
+.fr__serveTime{
+    padding: 1rem;
+    
+    button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 6;
+        border-style: none;
+        background-color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+}
+
+.fr__Ingredients{
+    padding: 1rem;
+}
+
